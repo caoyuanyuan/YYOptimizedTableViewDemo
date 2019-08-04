@@ -24,9 +24,13 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description = <<-DESC this project provide all kinds of categories for iOS developer DESC
+  spec.description      = <<-DESC
+TODO: Add long description of the pod here.
+                      	DESC
 
-  spec.homepage     = "http://EXAMPLE/YeshifuShareUI"
+		
+		
+  spec.homepage     = "https://github.com/caoyuanyuan/YYOptimizedTableViewDemo"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
