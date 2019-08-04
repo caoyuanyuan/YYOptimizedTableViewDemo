@@ -178,6 +178,7 @@
 		61EFCD9A1E6819AD0099B332 /* YYOptimizedTableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				61FEC3B322F71C650025F13C /* ShareUI */,
 				61EFCE241E68236B0099B332 /* Constant */,
 				61EFCDE01E681CDC0099B332 /* thirdPart */,
 				61EFCDCE1E681A4B0099B332 /* Common */,
@@ -340,6 +341,13 @@
 			path = Constant;
 			sourceTree = "<group>";
 		};
+		61FEC3B322F71C650025F13C /* ShareUI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ShareUI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -426,6 +434,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -733,6 +742,7 @@
 				61EFCDC71E6819AD0099B332 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61EFCDC81E6819AD0099B332 /* Build configuration list for PBXNativeTarget "YYOptimizedTableViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -741,6 +751,7 @@
 				61EFCDCA1E6819AD0099B332 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61EFCDCB1E6819AD0099B332 /* Build configuration list for PBXNativeTarget "YYOptimizedTableViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -749,6 +760,7 @@
 				61EFCDCD1E6819AD0099B332 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
