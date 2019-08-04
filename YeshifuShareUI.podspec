@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = < "MIT", :file => "FILE_LICENSE"
+  spec.description  = < "MIT", :file => "FILE_LICENSE" }
 
   spec.homepage     = "http://EXAMPLE/YeshifuShareUI"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
