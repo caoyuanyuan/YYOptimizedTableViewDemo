@@ -41,6 +41,7 @@
 		61EFCE201E6822060099B332 /* t_comments@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61EFCE1D1E6822060099B332 /* t_comments@2x.png */; };
 		61EFCE211E6822060099B332 /* t_repost@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61EFCE1E1E6822060099B332 /* t_repost@2x.png */; };
 		61EFCE231E6822150099B332 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61EFCE221E6822150099B332 /* data.plist */; };
+		61FEC3B722F71EEA0025F13C /* AAObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 61FEC3B622F71EEA0025F13C /* AAObj.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +129,8 @@
 		61EFCE221E6822150099B332 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 		61EFCE251E68238D0099B332 /* DefaultConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultConstant.h; sourceTree = "<group>"; };
 		61EFCE261E68240F0099B332 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		61FEC3B522F71EEA0025F13C /* AAObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAObj.h; sourceTree = "<group>"; };
+		61FEC3B622F71EEA0025F13C /* AAObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAObj.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -344,6 +347,8 @@
 		61FEC3B422F71E110025F13C /* AA */ = {
 			isa = PBXGroup;
 			children = (
+				61FEC3B522F71EEA0025F13C /* AAObj.h */,
+				61FEC3B622F71EEA0025F13C /* AAObj.m */,
 			);
 			path = AA;
 			sourceTree = "<group>";
@@ -511,6 +516,7 @@
 				61EFCE111E681CDC0099B332 /* UIImageView+WebCache.m in Sources */,
 				61EFCE031E681CDC0099B332 /* MKAnnotationView+WebCache.m in Sources */,
 				61EFCE151E681D470099B332 /* MultimodeLabel.m in Sources */,
+				61FEC3B722F71EEA0025F13C /* AAObj.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
